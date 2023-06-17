@@ -9,10 +9,10 @@ This repository contains Dachuan Shi's course projects for
 ### Table of Contents
 - Digital Image Processing
   - [Image Fusion And Morphing](./Image%20Fusion%20And%20Morphing)
-  - [Point Processing](./Point%20Processing/README.md)
-  - [Image Compression](./Image%20Compression/README.md)
-  - [Image Warping](./Image%20Warping/README.md)
-  - [Content Aware Image Resizing](./Content%20Aware%20Image%20Resizing/README.md)
+  - [Point Processing](./Point%20Processing)
+  - [Image Compression](./Image%20Compression)
+  - [Image Warping](./Image%20Warping)
+  - [Content Aware Image Resizing](./Content%20Aware%20Image%20Resizing)
 - Digital Image and Video Processing
   - [Bit Plane And Edge Detection And FFT](./Bit%20Plane%20And%20Edge%20Detection%20And%20FFT/PS1_Filtering.ipynb)
   - [Color Model And Image Restoration](./Color%20Model%20And%20Image%20Restoration/Tutorial_2.ipynb)
