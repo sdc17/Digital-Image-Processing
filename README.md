@@ -19,8 +19,8 @@ This repository contains Dachuan Shi's course projects for
 - Media Computing
   - [Convolution And Filter And Homography](./Convolution%20And%20Filter%20And%20Homography/hw1.ipynb)
   - [Poisson image fusion](./Poisson%20image%20fusion/hw2.ipynb)
-  - [Texture Synthesis](./Texture%20Synthesis/report.md)
-  - [Seam Carving](./Seam%20Carving/report.md)
+  - [Texture Synthesis](./Texture%20Synthesis)
+  - [Seam Carving](./Seam%20Carving)
 
 
 ### Disclaimer
