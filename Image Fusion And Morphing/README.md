@@ -1,6 +1,6 @@
-# NaiveImageFusionAndMorphing
+# Image Fusion And Morphing
 
-> Naive image fusion, face morphing and view morphing algorithms implemented with python
+> Image fusion, face morphing and view morphing algorithms implemented with python
 
 ### Requirements
 

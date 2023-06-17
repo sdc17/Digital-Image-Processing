@@ -1,5 +1,4 @@
-# NaiveIC
-> Naive Image Compression
+# Image Compression
 
 ### Requirements
 ```bash

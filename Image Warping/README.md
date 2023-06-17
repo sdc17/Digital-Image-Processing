@@ -1,5 +1,4 @@
-# NaiveIW
-> Naive Image Warping
+# Image Warping
 
 ### Requirements
 ```bash

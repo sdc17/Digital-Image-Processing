@@ -110,17 +110,17 @@ chmod +x task.sh
 
   * green.gif
 
-    ![image-20201213222044477](D:\CV\Cut\record\week12\media\image-20201213222044477.png)
+    ![image-20201213222044477](./comparison/green.png)
 
     从左至右依次为原图，偏移算法1，偏移算法2和偏移算法3的实验结果，下同。
 
-  * strawberries2.gif
-
-    ![image-20201213224007500](../../../../CV/Cut/record/week12/media/image-20201213224007500.png)
-
   * akeyboard_small.gif
 
-    ![image-20201213235603388](../../../../CV/Cut/record/week12/media/image-20201213235603388.png)
+    ![image-20201213235603388](./comparison/akeyboard_small.png)
+
+  * strawberries2.gif
+
+    ![image-20201213224007500](./comparison/strawberries2.png)
 
     因为时间关系测例3没完全跑完 ，因此使用中间合成结果作为替代。
 
@@ -129,3 +129,5 @@ chmod +x task.sh
 * 从实验效果一节中可见，Entire patch matching和Sub-patch matching的合成效果总体上更加真实，而Random placement合成的纹理则artifacts更加明显。
 * 在合成时间上，Random placement << Entire patch matching < Sub-patch matching，虽然后两种算法合成效果更好，但是时间成本显著增加。
 * 综合考虑时间成本和合成效果，Entire patch matching是相对更好的合成方法。
+
+### [Report](./report.pdf)

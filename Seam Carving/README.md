@@ -13,7 +13,7 @@
 
 * 基本算法
 
-  <img src="../../../../CV/Cut/record/week12/media/image-20210103231220449.png" alt="image-20210103231220449" style="zoom: 150%;" />
+  <img src="./report_data/algorithm.png" alt="image-20210103231220449" style="zoom: 150%;" />
 
   * 水平缩小：
 
@@ -21,7 +21,7 @@
     python -W ignore CAResize.py -i pic1.png -tw 400
       ```
   
-  ![image-20210103215852808](../../../../CV/Cut/record/week12/media/image-20210103215852808.png)
+    ![image-20210103215852808](./report_data/cmp1.png)
 
     左图为原图，右图为实验结果。可见在减小图片宽度的同时较好地保留了重要的区域。
 
@@ -31,7 +31,7 @@
     python -W ignore CAResize.py -i pic2.jpg -th 250
       ```
   
-  ![image-20210103220026413](../../../../CV/Cut/record/week12/media/image-20210103220026413.png)
+    ![image-20210103220026413](./report_data/cmp2.png)
 
   左图为原图，右图为实验结果。可见在减小图片高度的同时较好地保留了重要的区域。
 
@@ -43,7 +43,7 @@
     python -W ignore CAResize.py -i pic1.png -tw 400
       ```
   
-  ![image-20210103221219261](../../../../CV/Cut/record/week12/media/image-20210103221219261.png)
+    ![image-20210103221219261](./report_data/cmp3.png)
 
     左图为Gradient，右图为HoG。从红框标出的区域可见对于这张图片Gradient的效果更好。
   
@@ -57,7 +57,7 @@
   python -W ignore CAResize.py -i pic3.jpg -tw 700
   ```
 
-  ![image-20210103222139222](../../../../CV/Cut/record/week12/media/image-20210103222139222.png)
+  ![image-20210103222139222](./report_data/cmp4.png)
 
   左图为原图，右图为扩展后的图，可见被扩展的区域多集中于能量较低的浪花区域，这是符合预期的。
 
@@ -65,13 +65,13 @@
 
   我用labelme标出了需要被移除的目标，遍历返回的label文件，直到里面所有被标记的点都被删除：
 
-  <img src="../../../../CV/Cut/record/week12/media/image-20210103222533924.png" alt="image-20210103222533924" style="zoom:67%;" />
+  <img src="./report_data/label.png" alt="image-20210103222533924" style="zoom:67%;" />
 
   ```bash
   python -W ignore CAResize.py -i beach.jpg -m beach.npy
   ```
 
-  ![image-20210103222642888](../../../../CV/Cut/record/week12/media/image-20210103222642888.png)
+  ![image-20210103222642888](./report_data/cmp5.png)
 
   左图为原图，右图为移除指定目标后的结果，可见算法较好地实现了对象移除的功能。
 
@@ -85,7 +85,7 @@
   python -W ignore CAResize.py -i pic1.png -tw 400
   ```
 
-  ![image-20210103223018517](../../../../CV/Cut/record/week12/media/image-20210103223018517.png)
+  ![image-20210103223018517](./report_data/cmp6.png)
 
   左图为原能量公式的结果，右图为前向能量公式的结果，观察图像中间的两根白色柱子和图像下部的斜台阶可见，前向能量公式生成的结果顺滑了很多。
 
@@ -93,7 +93,8 @@
 
   以分阶段的图像扩展为例：
 
-  <img src="../../../../CV/Cut/record/week12/media/image-20210103223332538.png" alt="image-20210103223332538"  />
+  <img src="./report_data/cmp7.png" alt="image-20210103223332538"  />
 
   最上方为原图，中间和下方为扩展图。观察最下方图片的鲸鱼和水花可见Artifacts变得比较明显了。这是因为当复制的seam过多时算法的效果就类似于直接做resize了，所以会产生明显的拉伸感。
 
+#### [Report](./report.pdf)

@@ -1,5 +1,4 @@
-# NaiveIR
-> Naive Content-Aware Image Resizing
+# Content-Aware Image Resizing
 
 ### Requirements
 ```bash

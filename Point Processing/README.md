@@ -1,5 +1,4 @@
-# NaivePC
-> Naive Point Processing
+# Point Processing
 
 ### Requirements
 ```bash
