@@ -8,7 +8,7 @@ This repository contains Dachuan Shi's course projects for
 
 ### Table of Contents
 - Digital Image Processing
-  - [Image Fusion And Morphing](./Image%20Fusion%20And%20Morphing/README.md)
+  - [Image Fusion And Morphing](./Image%20Fusion%20And%20Morphing)
   - [Point Processing](./Point%20Processing/README.md)
   - [Image Compression](./Image%20Compression/README.md)
   - [Image Warping](./Image%20Warping/README.md)
